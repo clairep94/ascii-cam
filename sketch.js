@@ -1,5 +1,6 @@
 // Image to ASCII
 
+
 // ----- Density options: ----------------
 // const density = "Ñ@#W$9876543210?!abc;:+=-,._                       ";
 const density = "Ñ@W97531?ac:=,_         ";
@@ -16,7 +17,7 @@ function setup() {
   video = createCapture(VIDEO);
   video.size(160, 100);
   // create asciiDiv element
-  asciiDiv = createDiv();
+  asciiDiv = createDiv(); 
 }
 
 function draw() {
@@ -34,7 +35,7 @@ function draw() {
       const r = video.pixels[pixelIndex + 0];
       const g = video.pixels[pixelIndex + 1];
       const b = video.pixels[pixelIndex + 2];
-      // turn colour-feed into b/w
+      // turn colour-feed into b/w 
       // find greyscale value by averaging RGB values
       const bw = (r + g + b) / 3;
       // length of the chosen density string
@@ -49,7 +50,7 @@ function draw() {
       else asciiImage += c;
     }
     // add linebreak to end of row
-    asciiImage += "<br/>";
+    asciiImage += '<br/>';
   }
   // update content of asiiDiv with asciiImage string
   asciiDiv.html(asciiImage);
