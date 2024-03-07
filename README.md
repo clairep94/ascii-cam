@@ -1,6 +1,8 @@
 # ABOUT
 ![ISMovie-984126](https://github.com/clairep94/ascii-cam/assets/128436909/ac9f027e-c9af-4049-8f13-c7edbd26bbd9)
 
+[**Link to App**](https://editor.p5js.org/clairep94/full/R_8JHanzm)
+
 This is a webcam to ASCII converter that runs on p5js. <br>
 This is made through the following process:
 - Set up a webcam feed
