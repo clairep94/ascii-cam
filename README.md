@@ -4,10 +4,11 @@
 This is a webcam to ASCII converter that runs on p5js
 
 ## WHAT I LEARNED
--[X] How to set up a webcame feed
--[X] How images are stored as a matrix of pixels (array of R, G, B integer values)
--[X] How to convert colour pixels into B/W pixels by averaging the R, G, B values of each pixel
--[X] How to map B/W pixels to ASCII characters of different densities
+
+- [x] How to set up a webcame feed
+- [x] How images are stored as a matrix of pixels (array of R, G, B integer values)
+- [x] How to convert colour pixels into B/W pixels by averaging the R, G, B values of each pixel
+- [x] How to map B/W pixels to ASCII characters of different densities
 
 ## FUTURE LEARNING & IMPLEMENTATION
 - [ ] How to compile p5js & run this program on another website
